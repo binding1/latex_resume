@@ -1,0 +1,220 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Jaewon Bae} \\ \vspace{1pt}
+    \small Toronto, ON $|$ 647-458-9968 $|$ \href{mailto:jaey.pro@gmail.com}{\underline{jaey.pro@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/jae-bae}{\underline{linkedin.com/in/jae-bae}} $|$
+    \href{https://github.com/binding1}{\underline{github.com/binding1}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lighthouse Labs}{Toronto, ON}
+      {Diploma in Web Development}{Oct. 2022 -- May 2023}
+    \resumeSubheading
+      {University of Ottawa}{Ottawa, ON}
+      {Bachelors of Applied Sciences in Civil Engineering $|$ GPA: 3.70}{Sep. 2016 -- Jun. 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Junior Solutions Specialist}{Nov. 2022 -- Apr. 2023}
+      {Method:CRM}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Acted as Consultant for 50+ small and medium-sized businesses using Method’s no-code CRM platform to tailor to unique business needs}
+        \resumeItem{Compiled and document various client requirements in iterations which were translated into technical requirements, designs, and workflows}
+        \resumeItem{Developed, tested, and delivered complex, custom SaaS solutions using programming logic and SQL queries}
+        \resumeItem{Gathered continuous feedback, and translate into feature requests and support cases for product team in JIRA}
+        \resumeItem{Integrated third-party software into in-house API to fetch and submit data into Method's back-end}
+    \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Building Science Consultant}{May 2022 -- Nov. 2022}
+      {WSP in Canada}{Thornhill, ON}
+      \resumeItemListStart
+        \resumeItem{Oversaw numerous construction projects and building condition assessments, through client meetings, repair methods and payment certifications}
+        \resumeItem{Performed site reviews with field crew to monitor project progress and ensure conformance with schedule, specifications, and budget}
+        \resumeItem{Collaborated with engineers and clients for engineering and management inquiries}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Project Coordinator}{Jun. 2021 -- Apr. 2022}
+      {EllisDon}{Ottawa, ON}
+      \resumeItemListStart
+        \resumeItem{Coordinated with project managers and contractors for various \$1M+ public projects throughout extensive project lifecycle phases}
+        \resumeItem{Controlled project documents, Requests For Information and Change Orders and delegated tasks to proper contractor}
+        \resumeItem{Assisted in procurement by producing scopes of work from design documents and performing analysis to award in the bidding process}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://github.com/binding1/budget-boss}{\textbf{\underline{BudgetBoss}}} $|$ \emph{Next.js, React.js, Prisma, Tailwind, Axios, Chart.js}}{May 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack single-page application using with Next.js serving REST API with React as the front-end}
+            \resumeItem{Implemented Chart.js to visualize transaction data queried from Prisma into charts}
+            \resumeItem{Used Tailwind for styling a clean and concise design}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\href{https://github.com/binding1/scheduler}{\textbf{\underline{Scheduler}}} $|$ \emph{React.js, SASS, Axios, Jest, Storybook, Cypress}}{Mar. 2023 -- Apr. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a single-page application for students to schedule interviews with mentors, front-end built with React}
+            \resumeItem{Connected to API to fetch interview data}
+            \resumeItem{Created functional components and custom hooks to implement DRY principles and state management}
+          \resumeItemListEnd
+                \resumeProjectHeading
+          {\href{https://github.com/binding1/PasswordKeepR}{\textbf{\underline{PasswordKeepR}}} $|$ \emph{Embedded JavaScript, Express.js, SASS, Node.js, jQuery, PostgreSQL}}{Feb. 2023 -- Feb. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a multi-page web application made in collaboration in a team for managing passwords}
+            \resumeItem{Wrote API handler for CRUD operations to save, edit and delete passwords}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: JavaScript, Python, SQL (Postgres), Ruby, VBA, C} \\
+     \textbf{Frameworks}{: React.js, Node.js, Next.js, HTML/CSS, SCSS, Prisma, Ruby on Rails, Tailwind, Express.js, Axios, jQuery} \\
+     \textbf{Developer Tools}{: Git, GitHub, VS Code} \\
+     \textbf{Libraries}{: Chart.js, Jest, Storybook, Cypress, Mocha, Chai} \\
+     \textbf{Other}{: Agile, Project Management, Microsoft Office Suite, CAD, MATLAB}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
